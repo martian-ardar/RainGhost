@@ -1,0 +1,21 @@
+li a
+{
+    color: red;
+    text-decoration:none;
+}
+
+.navbar .nav > li .dropdown-menu
+{
+	margin: 0;
+}
+
+.navbar .nav > li:hover .dropdown-menu
+{
+	display: block;
+}
+/*
+body
+{
+    background: white url("images/background.gif") no-repeat right bottom;
+}
+*/
