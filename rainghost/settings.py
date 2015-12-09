@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import socket
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -23,7 +24,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%-yfzt_6j3k_qf%z=zey1wwnywl-yza!%79d6@($h&ma0qwft('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-import socket
 if socket.gethostname() in ['7c83df0398f0']:
 # development
     DEBUG = TEMPLATE_DEBUG = False
@@ -125,3 +125,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MYDOC_ROOT = os.path.join(BASE_DIR, "mydoc/")
