@@ -1,7 +1,10 @@
-li a
+iframe
 {
-    color: red;
-    text-decoration:none;
+	display: block;
+	frameborder: 0;
+	scrolling: auto;
+	width: 99%;
+	height: 99%;
 }
 
 .navbar .nav > li .dropdown-menu
@@ -13,9 +16,19 @@ li a
 {
 	display: block;
 }
-/*
-body
-{
-    background: white url("images/background.gif") no-repeat right bottom;
+
+.logo {
+	margin:9px 0 0 14px;
+	font-size:30px;
+	font-weight:bold;
+	float:left;
+	color:#ffffbb;
 }
-*/
+
+.mydiv
+{
+	zoom:1;
+	overflow:hidden;
+	scrolling: auto;
+}
+
