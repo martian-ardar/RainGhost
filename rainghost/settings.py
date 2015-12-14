@@ -125,4 +125,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MYDOC_ROOT = os.path.join(BASE_DIR, "mydoc/")
+MYDOC_ROOT = os.path.join(BASE_DIR,'blogs')

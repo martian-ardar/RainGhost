@@ -23,4 +23,4 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
 ]
 
-urlpatterns += static('/mydoc/', document_root=settings.MYDOC_ROOT)
+urlpatterns += static('/blogs/', document_root=settings.MYDOC_ROOT)
