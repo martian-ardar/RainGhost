@@ -29,7 +29,7 @@ define('DB_USER', 'rainghost');
 define('DB_PASSWORD', 'qwerty1V');
 
 /** MySQL hostname */
-define('DB_HOST', '10.157.5.183');
+define('DB_HOST', '10.157.3.11');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

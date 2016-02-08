@@ -101,7 +101,7 @@ DATABASES = {
         'NAME': 'rainghost',
         'USER': 'rainghost',
         'PASSWORD': 'qwerty1V',
-        'HOST': '10.157.5.183',
+        'HOST': '10.157.3.11',
         'PORT': '3306'
     }
 }
